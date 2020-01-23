@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d47dcead-ca8f-4598-940b-95dbcc130e21" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -75,7 +74,19 @@
       <workItem from="1579610407923" duration="1513000" />
       <workItem from="1579612560452" duration="314000" />
       <workItem from="1579616121129" duration="1396000" />
+      <workItem from="1579619534701" duration="67000" />
+      <workItem from="1579782294397" duration="1724000" />
+      <workItem from="1579784068110" duration="1473000" />
+      <workItem from="1579785959281" duration="1445000" />
     </task>
+    <task id="LOCAL-00001" summary="edit link font awesome">
+      <created>1579619586703</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1579619586703</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -86,10 +97,16 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="edit link font awesome" />
+    <option name="LAST_COMMIT_MESSAGE" value="edit link font awesome" />
   </component>
 </project>

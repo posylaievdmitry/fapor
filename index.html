@@ -7,9 +7,37 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="https://resources/demos/style.css">
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script>
+        $( function() {
+            $( "#dialog" ).dialog({
+                autoOpen: false,
+                show: {
+                    effect: "blind",
+                    duration: 1000
+                },
+                hide: {
+                    effect: "explode",
+                    duration: 1000
+                }
+            });
+
+            $( "#opener" ).on( "click", function() {
+                $( "#dialog" ).dialog( "open" );
+            });
+        } );
+    </script>
+    <script
+            src="https://code.jquery.com/jquery-2.2.4.min.js"
+            integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+            crossorigin="anonymous"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/scripts.js"></script>
 </head>
 <body>
 <header>
@@ -38,6 +66,11 @@
     </nav>
 </div>
 </header>
+<div id="dialog" title="Basic dialog">
+    <p>This is an animated dialog which is useful for displaying information. The dialog window can be moved, resized and closed with the 'x' icon.</p>
+</div>
+
+<button id="opener">Open Dialog</button>
 <section class="about_us">
     <div class="container">
         <h1 class="about_us_heading">More About US</h1>
@@ -162,11 +195,5 @@
         </div>
     </div>
 </footer>
-<script
-        src="https://code.jquery.com/jquery-2.2.4.min.js"
-        integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
-        crossorigin="anonymous"></script>
-<script src="js/owl.carousel.min.js"></script>
-<script src="js/scripts.js"></script>
 </body>
 </html>
