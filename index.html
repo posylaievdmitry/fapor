@@ -12,6 +12,13 @@
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
     <link rel="stylesheet" href="css/style.css">
+
+    <script
+            src="https://code.jquery.com/jquery-2.2.4.min.js"
+            integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+            crossorigin="anonymous"></script>
+    <script src="js/owl.carousel.min.js"></script>
+
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     <script>
         $( function() {
@@ -32,11 +39,7 @@
             });
         } );
     </script>
-    <script
-            src="https://code.jquery.com/jquery-2.2.4.min.js"
-            integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
-            crossorigin="anonymous"></script>
-    <script src="js/owl.carousel.min.js"></script>
+
     <script src="js/scripts.js"></script>
 </head>
 <body>
@@ -66,13 +69,19 @@
     </nav>
 </div>
 </header>
-<div id="dialog" title="Basic dialog">
-    <p>This is an animated dialog which is useful for displaying information. The dialog window can be moved, resized and closed with the 'x' icon.</p>
-</div>
-
-<button id="opener">Open Dialog</button>
 <section class="about_us">
     <div class="container">
+        <div id="dialog" title="FORGOT YOUR PASSWORD?">
+            <form action="">
+                <p>ENTER YOUR EMAIL</p>
+                <input type="email" name="email">
+                <button>RESET PASSWORD</button>
+                <span>OR</span>
+                <a href="#">Log In Using Facebook</a>
+            </form>
+        </div>
+
+        <button id="opener">FORGOT YOUR PASSWORD?</button>
         <h1 class="about_us_heading">More About US</h1>
         <p class="about_us_text">We are a fairly small, flexible design studio that designs for print and web. We work flexibly with clients to fulfil their design needs.<br>Whether you need to create a brand from scratch, including marketing materials and a beautiful.</p>
     </div>

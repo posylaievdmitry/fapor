@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d47dcead-ca8f-4598-940b-95dbcc130e21" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -78,6 +79,13 @@
       <workItem from="1579782294397" duration="1724000" />
       <workItem from="1579784068110" duration="1473000" />
       <workItem from="1579785959281" duration="1445000" />
+      <workItem from="1579787783655" duration="1759000" />
+      <workItem from="1579789576234" duration="2034000" />
+      <workItem from="1579791690209" duration="1821000" />
+      <workItem from="1579793538779" duration="1768000" />
+      <workItem from="1579795414720" duration="1956000" />
+      <workItem from="1579797518882" duration="1792000" />
+      <workItem from="1579799337944" duration="1791000" />
     </task>
     <task id="LOCAL-00001" summary="edit link font awesome">
       <created>1579619586703</created>
@@ -86,7 +94,14 @@
       <option name="project" value="LOCAL" />
       <updated>1579619586703</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="question">
+      <created>1579787937036</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1579787937036</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -107,6 +122,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="edit link font awesome" />
-    <option name="LAST_COMMIT_MESSAGE" value="edit link font awesome" />
+    <MESSAGE value="question" />
+    <option name="LAST_COMMIT_MESSAGE" value="question" />
   </component>
 </project>
