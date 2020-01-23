@@ -427,7 +427,7 @@ footer .footer_bottom{
 .ui-dialog .ui-dialog-content form{
     padding-top: 40px;
 }
-.ui-dialog .ui-dialog-content form p{
+.ui-dialog .ui-dialog-content form label{
     position: relative;
     top: 10px;
     left: 0;
