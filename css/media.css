@@ -1,0 +1,38 @@
+@media only screen and (max-width: 1023px) {
+    .login{
+        background-image: none;
+        background-color: #eeeae3;
+        padding-bottom: 100px;
+    }
+    .left_side{
+        float: none;
+        display: block;
+        max-width: 450px;
+        margin: auto;
+        margin-bottom: 100px;
+    }
+    .right_side{
+        float: none;
+        display: block;
+        margin: auto;
+    }
+    .ui-widget.ui-widget-content{
+        border-radius: 20px;
+        padding: 10px;
+    }
+    footer .container .footer_content{
+        float: none;
+        display: block;
+        margin: auto;
+    }
+    footer .footer_content:last-of-type{
+        float: none;
+        display: block;
+        margin: auto;
+    }
+}
+@media only screen and (max-width: 460px) {
+    .login{
+        padding: 10px;
+    }
+}

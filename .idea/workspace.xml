@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d47dcead-ca8f-4598-940b-95dbcc130e21" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/media.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
     </list>
@@ -16,9 +19,25 @@
       <executable />
     </execution>
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="SCSS File" />
+        <option value="HTML File" />
         <option value="CSS File" />
       </list>
     </option>
@@ -32,6 +51,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="C:/Ruby26-x64/bin/scss.bat" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
@@ -88,6 +108,11 @@
       <workItem from="1579801155682" duration="516000" />
       <workItem from="1579870222290" duration="1518000" />
       <workItem from="1579872125041" duration="1600000" />
+      <workItem from="1579873981779" duration="693000" />
+      <workItem from="1580041929823" duration="90000" />
+      <workItem from="1580042054382" duration="145000" />
+      <workItem from="1580042220557" duration="93000" />
+      <workItem from="1580042335060" duration="10780000" />
     </task>
     <task id="LOCAL-00001" summary="edit link font awesome">
       <created>1579619586703</created>
@@ -117,7 +142,14 @@
       <option name="project" value="LOCAL" />
       <updated>1579801416715</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="edit dialog">
+      <created>1579874070073</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1579874070073</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -140,6 +172,7 @@
     <MESSAGE value="edit link font awesome" />
     <MESSAGE value="question" />
     <MESSAGE value="create dialog" />
-    <option name="LAST_COMMIT_MESSAGE" value="create dialog" />
+    <MESSAGE value="edit dialog" />
+    <option name="LAST_COMMIT_MESSAGE" value="edit dialog" />
   </component>
 </project>

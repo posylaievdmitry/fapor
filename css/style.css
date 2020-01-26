@@ -499,3 +499,176 @@ footer .footer_bottom{
 .ui-widget-header {
     border: none;
 }
+.login{
+    background-image: url("../images/bg_login.png");
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 300px;
+    padding-top: 100px;
+}
+.left_side{
+    float: left;
+    max-width: 480px;
+    width: 100%;
+}
+.right_side{
+    float: right;
+    max-width: 450px;
+    width: 100%;
+}
+.login:after, .left_side:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.login h4{
+    font: 11px/11px "Open Sans";
+    color: #434343;
+    margin-bottom: 35px;
+}
+.left_side h4:nth-child(2):after{
+    content: "";
+    display: block;
+    width: 110px;
+    height: 1px;
+    background-color: black;
+    margin: 34px 0 6px;
+}
+.left_side .form_group{
+    max-width: 450px;
+}
+.form_group label{
+    display: block;
+    font: 11px/11px "Open Sans";
+    text-transform: uppercase;
+    margin-bottom: 16px;
+}
+.form_group input{
+    width: 100%;
+    height: 31px;
+    border: none;
+    margin-bottom: 36px;
+}
+.left_side button{
+    height: 36px;
+    border: none;
+    background-color: #e7cfa6;
+    text-align: center;
+    text-transform: uppercase;
+    font: 12px/36px "Open Sans";
+    color: #434343;
+    border-radius: 20px;
+    padding: 0 72px;
+    float: left;
+}
+.left_side .forgot{
+    font: 10px/36px "Open Sans";
+    color: #434343;
+    float: right;
+}
+.ui-widget-header{
+    background: none;
+}
+.ui-widget.ui-widget-content {
+    border: none;
+}
+.ui-tabs .ui-tabs-nav{
+    padding: 0;
+}
+.form_group.right_form input{
+    background-color: #f6f6f6;
+}
+.form_group.right_form_pass input{
+    background-color: #fbf7f1;
+}
+.right_side button{
+    height: 36px;
+    border: none;
+    background-color: #e7cfa6;
+    text-align: center;
+    text-transform: uppercase;
+    font: 12px/36px "Open Sans";
+    color: #434343;
+    border-radius: 20px;
+    padding: 0 55px;
+}
+.ui-tabs .ui-tabs-nav{
+    margin-bottom: 36px;
+}
+.ui-tabs .ui-tabs-nav .ui-tabs-anchor {
+    background-color: white;
+    font: 12px "Open Sans";
+    color: #d1d1d1;
+    border-bottom: solid 2px #d1d1d1;
+    padding: 7px 20px;
+}
+.ui-tabs .ui-tabs-nav li {
+    border: none;
+    margin-right: 21px;
+}
+.ui-tabs .ui-tabs-nav li.ui-tabs-active .ui-tabs-anchor, .ui-tabs .ui-tabs-nav li.ui-state-disabled .ui-tabs-anchor, .ui-tabs .ui-tabs-nav li.ui-tabs-loading .ui-tabs-anchor {
+    background-color: #e7cfa6;
+    border: #e7cfa6;
+    color: white;
+    outline: none;
+}
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active, a.ui-button:active, .ui-button:active, .ui-button.ui-state-active:hover {
+    background-color: #e7cfa6;
+}
+.ui-tabs .ui-tabs-nav li.ui-tabs-active:after{
+    content: '';
+    display: block;
+    width: 9px;
+    height: 9px;
+    transform: rotate(45deg);
+    background-color: #e7cfa6;
+    position: relative;
+    top: 28px;
+    margin: auto;
+}
+.ui-tabs .ui-tabs-panel {
+    padding: 0;
+}
+.login .right_heading{
+    margin-bottom: 44px;
+}
+
+
+/*.ui-tabs .ui-tabs-panel{*/
+/*    padding: 0;*/
+/*}*/
+/*.ui-tabs{*/
+/*    padding: 0;*/
+/*}*/
+/*.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default{*/
+/*    background-color: white;*/
+/*    border: none;*/
+/*}*/
+/*.ui-tabs .ui-tabs-nav .ui-tabs-anchor{*/
+/*    font: 12px "Open Sans" ;*/
+/*    color: #d1d1d1;*/
+/*    border-bottom: solid 2px #d1d1d1;*/
+/*    margin-right: 20px;*/
+/*    padding: 13px 28px;*/
+/*}*/
+/*.ui-tabs .ui-tabs-nav li.ui-tabs-active {*/
+/*    background-color: #e7cfa6;*/
+/*    border: none;*/
+/*    color: white;*/
+/*}*/
+/*.ui-tabs .ui-tabs-nav li.ui-tabs-active .ui-tabs-anchor, .ui-tabs .ui-tabs-nav li.ui-state-disabled .ui-tabs-anchor, .ui-tabs .ui-tabs-nav li.ui-tabs-loading .ui-tabs-anchor {*/
+/*    border: none;*/
+/*    color: white;*/
+/*}*/
+/*.ui-tabs .ui-tabs-nav li.ui-tabs-active:after{*/
+/*    content: '';*/
+/*    display: block;*/
+/*    width: 9px;*/
+/*    height: 9px;*/
+/*    transform: rotate(45grad);*/
+/*    background-color: black;*/
+/*    position: relative;*/
+/*    top: 0;*/
+/*    left: 0;*/
+/*}*/
