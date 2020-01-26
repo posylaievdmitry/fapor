@@ -30,9 +30,43 @@
         display: block;
         margin: auto;
     }
+    .footer_bottom{
+        padding: 0 10px;
+    }
 }
 @media only screen and (max-width: 460px) {
     .login{
         padding: 10px;
+    }
+}
+@media only screen and (max-width: 410px) {
+    .ui-tabs .ui-tabs-nav li {
+        margin-right: 5px;
+    }
+    .ui-tabs .ui-tabs-nav .ui-tabs-anchor{
+        padding: 7px 14px;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .logo{
+        float: none;
+        display: block;
+        margin: auto;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    header nav{
+        float: none;
+        text-align: center;
+    }
+    header nav ul li{
+        float: none;
+    text-align: center;
+        margin-left: 0;
+    }
+}
+@media only screen and (max-width: 320px) {
+    header nav ul li a {
+        padding: 0 8px;
     }
 }
