@@ -24,6 +24,7 @@
         float: none;
         display: block;
         margin: auto;
+        text-align: center;
     }
     footer .footer_content:last-of-type{
         float: none;
@@ -33,6 +34,21 @@
     .footer_bottom{
         padding: 0 10px;
     }
+    .management .user{
+        float: none;
+        display: block;
+        margin: auto;
+        max-width: 246px;
+        margin-bottom: 20px;
+    }
+    .management .user:last-of-type {
+        float: none;
+        margin: auto;
+    }
+    .about_us{
+        text-align: center;
+    }
+
 }
 @media only screen and (max-width: 460px) {
     .login{
@@ -64,9 +80,27 @@
     text-align: center;
         margin-left: 0;
     }
+    section .about_us_heading {
+        font-size: 25px;
+    }
+    #opener{
+        display: block;
+        margin: auto;
+    }
 }
 @media only screen and (max-width: 320px) {
     header nav ul li a {
         padding: 0 8px;
+    }
+}
+@media only screen and (min-width: 415px) and (max-width: 768px) {
+    footer .container .footer_content{
+        max-width: 400px;
+    }
+    .management .user{
+        max-width: 500px;
+    }
+    .management .user img{
+        max-width: 500px;
     }
 }
